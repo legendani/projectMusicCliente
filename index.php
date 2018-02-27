@@ -12,8 +12,7 @@
       var password = $(".password").val();
       e.preventDefault();
       $.ajax({
-        //url: 'http://81.169.234.32/danih/projectMusicCliente/public/index.php/users/login.json',
-        url: 'http://localhost/projectMusic/public/index.php/users/login.json',
+        url: 'http://81.169.234.32/danih/projectMusic/public/index.php/users/login.json',
         dataType: 'json',
         type: 'GET',
         data: {

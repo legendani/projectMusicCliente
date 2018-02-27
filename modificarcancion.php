@@ -18,8 +18,8 @@
 				headers: {
 			         'Authorization' : sessionStorage.getItem('token')
 			        },
-				url: 'http://81.169.234.32/danih/projectMusicCliente/public/index.php/songs/modifySong.json',
-				 // http://localhost/projectMusicCliente/public/index.php/songs/modifySong.json
+				url: 'http://81.169.234.32/danih/projectMusic/public/index.php/songs/modifySong.json',
+				 // http://localhost/projectMusic/public/index.php/songs/modifySong.json
 				dataType: 'json',
 				type: 'POST',
 				data: {
