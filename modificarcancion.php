@@ -23,7 +23,7 @@
 				dataType: 'json',
 				type: 'POST',
 				data: {
-					'id': id,
+					'id_song': id,
 					'title': title,
 					'artist': artist,
 					'url': url
@@ -66,9 +66,7 @@
         <!-- Input url -->
        <input type="text" style=" margin-top: 3px" class="form-control mb-2 url" id="inlineFormInputGroup" placeholder="URL">
 
-
-
-   
+       <input type="text" style=" margin-top: 3px" class="form-control mb-2 id_song" id="inlineFormInputGroup" placeholder="ID">
 
        <button style="margin-top: 3px; margin-left: 80px"   type="submit" class="btn btn-primary mb-2 update">Modificar</button>
 
